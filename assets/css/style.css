@@ -1,3 +1,77 @@
-#select:hover{
-    color: red;
+
+.option{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px white;
+}
+.option:hover{
+    color: blue;
+}
+
+
+body{
+    background-image: url("../images/thinkingManBackground.jpg");
+    background-size: cover;
+}
+#gameTitle{
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px white;
+}
+#clock{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 2px 2px 8px white;
+    
+}
+#buttonStart{
+    text-align: center;
+    bottom: 50px;
+    right: 45%;
+    position: absolute;
+    border-radius: 10px;
+}
+#mainSection{
+    text-align: center;
+}
+#possibleAnswers {
+    text-align: center;
+    text-shadow: 2px 2px 8px white;
+}
+#question{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 2px 2px 8px white;
+}
+#rightOrWrong{
+    text-align:center;
+}
+#scoreBoard{
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: auto;
+    background: lightgoldenrodyellow;
+    opacity:0.5;
+    padding: 20px;
+    bottom: -100px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#gameResponse{
+    background: lightgoldenrodyellow;
+    font-size: 20px;
+    opacity:0.5;
+    padding: 20px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
 }

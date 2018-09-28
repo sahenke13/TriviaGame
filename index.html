@@ -12,25 +12,28 @@
 </head>
 <body>
     <div = "mastHead">
-        <header id = "gameTitle">Trivia Game</header>
+        <header id = "gameTitle">A Trivial Trivia Game</header>
     </div>
     <div = "mainSection">
         <div id = "clock">5</div>
-        <button id = "buttonStart">Start</button>
+        <button id = "buttonStart">START/RESET TOGGLE</button>
         <div id = "question">
-            Hit Start to begin the game
+            Press Start to begin the game
         </div>
         <div id = "possibleAnswers">
 
         </div>
+        <div id = "gameResponse">
+            
+        </div>
       
     </div>
     <div id = "scoreBoard">
-        <div id = "correctGuess">
-            Correct Answer:
+        <div>
+            Correct:<span id = "correctGuess"></span>
         </div>
-        <div id = "wrongGuess">
-            Wrong Answer: 
+        <div>
+            Incorrect: <span id = "incorrectGuess"></span>
         </div>
         <script src="./assets/javascript/app.js"></script>
 </body>
